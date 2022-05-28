@@ -40,7 +40,8 @@
 h3 {
   list-style:none;
 }
-.input,.btn{
+.input,
+.btn{
   outline:none;
 }
 .btn {
