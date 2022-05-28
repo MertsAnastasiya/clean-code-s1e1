@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.img{
+.img {
   width: 100%;
 }
 .link {
@@ -33,16 +33,16 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 .input,
-.btn{
-  outline:none;
+.btn {
+  outline: none;
 }
 .btn {
   background: none;
@@ -84,7 +84,7 @@ h3,
 }
 
 /* New Task */
-.item__label-new-task{
+.item__label-new-task {
   display: block;
   margin: 0 0 20px;
 }
@@ -108,7 +108,7 @@ li > * {
   margin: 0 10px;
 }
 
-.input__label{
+.input__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -127,14 +127,14 @@ li > * {
 /* Completed */
 .input-text-edit {
   width: 226px;
-  display:none;
+  display: none;
 }
 /* Edit Task */
 .edit-mode .input-text-edit { 
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .input__label {
-  display:none;
+  display: none;
 }
