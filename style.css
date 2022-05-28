@@ -36,7 +36,8 @@
   margin:0;
   padding: 0px;
 }
-.list-item, h3 {
+.list-item,
+h3 {
   list-style:none;
 }
 .input,.btn{
