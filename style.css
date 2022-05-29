@@ -84,7 +84,7 @@ h3,
   text-transform: uppercase;
 }
 
-.input-text {
+.input_text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,7 +97,7 @@ h3,
   color: #888;
 }
 
-.input-text:focus {
+.input_text:focus {
   color: #333;
 }
 
@@ -122,7 +122,7 @@ li > * {
   vertical-align: middle;
 }
 
-.input-checkbox {
+.input_checkbox {
   margin: 0 10px;
 }
 
@@ -144,13 +144,13 @@ li > * {
 }
 
 /* Completed */
-.input-text-edit {
+.input_edit {
   width: 226px;
   display: none;
 }
 
 /* Edit Task */
-.edit-mode .input-text-edit { 
+.edit-mode .input_edit { 
   display: inline-block;
   width: 224px;
 }

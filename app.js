@@ -22,14 +22,14 @@ var createNewTaskElement=function(taskString){
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbox
     checkBox.classList.add('input');
-    checkBox.classList.add('input-checkbox');
+    checkBox.classList.add('input_checkbox');
     //label
     var label=document.createElement("label");//label
     //input (text)
     var editInput=document.createElement("input");//text
     editInput.classList.add('input');
-    editInput.classList.add('input-text');
-    editInput.classList.add('input-text-edit');
+    editInput.classList.add('input_text');
+    editInput.classList.add('input_edit');
     //button.edit
     var editButton=document.createElement("button");//edit button
     editButton.classList.add('btn');
