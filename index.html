@@ -13,36 +13,39 @@
   <section class="section">
     <h3>Add Item</h3>
     <div class="wrapper">
-      <input id="new-task" class="input input_text input-new-task" type="text">
+      <input id="input_new-task" class="input input_text input_new-task" type="text">
       <button class="btn">Add</button>
     </div>
     <h3>Todo</h3>
-    <ul id="incomplete-tasks" class="list">
-      <li class="list-item">
+    <ul id="list_incomplete" class="list list_incomplete">
+      <li class="list__item">
         <input class="input input_checkbox" type="checkbox">
         <label class="input__label">Pay Bills</label>
         <input class="input input_text input_edit" type="text">
-        <button class="btn edit">Edit</button><button class="btn delete">
-          <img class="img img-delete" src="./remove.svg" alt="Remove">
+        <button class="btn btn_edit">Edit</button>
+        <button class="btn btn_delete">
+          <img class="img img_delete" src="./remove.svg" alt="Remove">
         </button>
       </li>
-      <li class="list-item edit-mode">
+      <li class="list__item list__item_edit">
         <input class="input input_checkbox" type="checkbox">
         <label class="input__label">Go Shopping</label>
         <input class="input input_text input_edit" type="text" value="Go Shopping">
-        <button class="btn edit">Save</button><button class="btn delete">
-          <img class="img img-delete" src="./remove.svg" alt="Remove">
+        <button class="btn btn_edit">Save</button>
+        <button class="btn btn_delete">
+          <img class="img img_delete" src="./remove.svg" alt="Remove">
         </button>
       </li>
     </ul>
     <h3>Completed</h3>
-    <ul id="complete-tasks" class="list">
-      <li class="list-item">
-        <input class="input input-checkbox" type="checkbox" checked>
-        <label class="input__label">See the Doctor</label>
+    <ul id="list_complete" class="list list_complete">
+      <li class="list__item">
+        <input class="input input_checkbox" type="checkbox" checked>
+        <label class="input__label input__label_through">See the Doctor</label>
         <input class="input input_text input_edit" type="text">
-        <button class="btn edit">Edit</button><button class="btn delete">
-          <img class="img img-delete" src="./remove.svg" alt="Remove">
+        <button class="btn btn_edit">Edit</button>
+        <button class="btn btn_delete">
+          <img class="img img_delete" src="./remove.svg" alt="Remove">
         </button>
       </li>
     </ul>
